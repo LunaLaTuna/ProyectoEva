@@ -4,10 +4,10 @@ import mysql.connector
 
 try:
     connection = mysql.connector.connect(
-        host= 'localhost',
+        host= '192.168.137.123',
         port= 3306,
-        user = 'root',
-        password  = '1234',
+        user = 'carlos',
+        password  = '011323',
         db='bd_honda'
             )
     if connection.is_connected():
